@@ -16,5 +16,5 @@ RUN apt-get update -y && \
     cd build/ && \
     cmake -DCMAKE_BUILD_TYPE=Release .. && \
     cmake --build . && \
-    make install && \
+    make install
 
