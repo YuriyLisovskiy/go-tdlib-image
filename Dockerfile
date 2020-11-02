@@ -8,7 +8,7 @@ USER $APP_USER
 # Build and install dependencies.
 RUN apt-get update -y && \
     apt-get upgrade -y && \
-    apt-get install -y gperf ccache readline-common cmake protobuf-compiler libssl-dev wget && \
+    apt-get install -y gperf ccache readline-common cmake protobuf-compiler libssl-dev wget tar && \
     cd /tmp && \
     wget https://github.com/tdlib/td/archive/v1.6.0.tar.gz
     tar -zxvf v1.6.0.tar.gz
