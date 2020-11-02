@@ -1,4 +1,3 @@
-## Telegram Service Image
+## Go Telegram Database Library Image
 
-Docker image with installed Telegram Database Library written in C++: [tdlib/td](https://github.com/tdlib/td).
-So, you can use this container to run services in any programming language which has bindings for this library.
+Docker image with pre-installed Telegram Database Library written in C++: [tdlib/td](https://github.com/tdlib/td) to run Go services.
